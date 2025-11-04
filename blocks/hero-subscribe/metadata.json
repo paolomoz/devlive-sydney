@@ -1,0 +1,53 @@
+{
+  "variantName": "hero-subscribe",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-11-04T00:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "Figma Import",
+    "originPage": "Figma Frame Import",
+    "blockPosition": "hero"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-cyan",
+    "density": "spacious",
+    "purpose": "subscription-cta",
+    "imagePattern": "side-by-side",
+    "textLength": "medium"
+  },
+  "contentPattern": {
+    "structure": "byline + heading + description + CTA text + button + image",
+    "headingMaxLength": 60,
+    "descriptionMaxLength": 300,
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Subscription CTAs with large imagery",
+      "Feature hero sections with two-column layout",
+      "Content-heavy hero sections with visual emphasis"
+    ],
+    "notSuitableFor": [
+      "Simple text-only CTAs",
+      "Full-width background image heroes",
+      "Video backgrounds"
+    ],
+    "similarVariants": ["hero-feature", "hero-cta"]
+  },
+  "designTokens": {
+    "primaryColor": "#000000",
+    "backgroundColor": "rgba(139, 254, 248, 0.5)",
+    "accentColor": "rgba(244, 254, 139, 0.5)",
+    "fontFamilyHeading": "Syncopate",
+    "fontFamilyBody": "Instrument Sans",
+    "headingSizeDesktop": "90.4px",
+    "borderRadius": "20px",
+    "padding": "80px 60px"
+  },
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": "2025-11-04T00:00:00.000Z"
+  }
+}

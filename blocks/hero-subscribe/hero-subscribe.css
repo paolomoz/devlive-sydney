@@ -1,0 +1,174 @@
+/* Hero Subscribe - Two-column hero with subscription CTA */
+
+.hero-subscribe {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(139, 254, 248, 0.5);
+  padding: 48px 24px;
+  gap: 32px;
+}
+
+/* Content container */
+.hero-subscribe-content {
+  flex: 1;
+}
+
+.hero-subscribe-content-inner {
+  max-width: 575px;
+}
+
+/* Byline */
+.hero-subscribe-byline {
+  font-family: 'Instrument Sans', var(--body-font-family);
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 18.72px;
+  letter-spacing: 0.144px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 24px 0;
+}
+
+/* Heading */
+.hero-subscribe-heading {
+  font-family: 'Syncopate', var(--heading-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.04;
+  letter-spacing: -0.48px;
+  color: #000;
+  margin: 0 0 32px 0;
+}
+
+/* Description */
+.hero-subscribe-description {
+  font-family: 'Instrument Sans', var(--body-font-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #000;
+  margin: 0 0 32px 0;
+}
+
+/* CTA text */
+.hero-subscribe-cta-text {
+  font-family: 'Instrument Sans', var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0 0 24px 0;
+}
+
+/* Button wrapper */
+.hero-subscribe-button-wrapper {
+  margin-bottom: 32px;
+}
+
+/* Button */
+.hero-subscribe-button,
+.hero-subscribe-button.button {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Instrument Sans', var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #000 !important;
+  background-color: transparent !important;
+  padding: 16px 24px;
+  border: 2px solid #000;
+  border-radius: 1600px;
+  box-shadow: 4px 4px 0px 0px rgba(244, 254, 139, 0.5);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-subscribe-button:hover,
+.hero-subscribe-button.button:hover {
+  opacity: 0.9;
+  background-color: transparent !important;
+  color: #000 !important;
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px rgba(244, 254, 139, 0.5);
+}
+
+/* Image container */
+.hero-subscribe-image {
+  flex: 1;
+  min-height: 400px;
+  position: relative;
+}
+
+.hero-subscribe-image picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-subscribe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Tablet */
+@media (width >= 600px) {
+  .hero-subscribe {
+    padding: 64px 40px;
+  }
+
+  .hero-subscribe-heading {
+    font-size: 64px;
+    letter-spacing: -0.64px;
+  }
+
+  .hero-subscribe-description {
+    font-size: 24px;
+  }
+}
+
+/* Desktop */
+@media (width >= 900px) {
+  .hero-subscribe {
+    flex-direction: row;
+    padding: 80px 60px;
+    gap: 96px;
+    min-height: 700px;
+  }
+
+  .hero-subscribe-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-subscribe-heading {
+    font-size: 90.4px;
+    line-height: 94.02px;
+    letter-spacing: -0.904px;
+    margin-bottom: 48px;
+  }
+
+  .hero-subscribe-description {
+    font-size: 32px;
+    line-height: 51.2px;
+    margin-bottom: 48px;
+  }
+
+  .hero-subscribe-image {
+    min-height: 550px;
+  }
+}
+
+/* Large desktop */
+@media (width >= 1200px) {
+  .hero-subscribe {
+    min-height: 884px;
+  }
+
+  .hero-subscribe-image {
+    min-height: 100%;
+  }
+}
