@@ -57,9 +57,11 @@
   /* button properties */
   --button-border-radius: 1600px;
   --button-padding: 16px 24px;
-  --button-box-shadow: rgb(0, 0, 0) 0px 0px 0px 2px inset, var(--accent-color-transparent) 4px 4px 0px 0px;
-  --button-box-shadow-hover: rgb(0, 0, 0) 0px 0px 0px 2px inset, var(--accent-color-transparent) 7px 7px 0px 0px;
-  --button-background-hover: var(--accent-color-bg);
+  --button-background: #000;
+  --button-color: #fff;
+  --button-box-shadow: var(--accent-color-transparent) 4px 4px 0px 0px;
+  --button-box-shadow-hover: var(--accent-color-transparent) 7px 7px 0px 0px;
+  --button-background-hover: #000;
   --button-transition: border-color 0.2s, color 0.2s, background-color 0.2s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.2s;
 
   /* link properties */
@@ -229,8 +231,8 @@ button {
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  background-color: transparent;
-  color: var(--text-color);
+  background-color: var(--button-background);
+  color: var(--button-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;

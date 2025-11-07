@@ -1,0 +1,57 @@
+{
+  "variantName": "hero-trends",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-11-07T10:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "Figma Design Import",
+    "originPage": "Trends Landing Page Hero",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-cyan",
+    "density": "spacious",
+    "purpose": "trends-showcase",
+    "imagePattern": "side-by-side",
+    "textLength": "long"
+  },
+  "contentPattern": {
+    "structure": "byline + large heading + description + cta text + button + hero image",
+    "headingMaxLength": 50,
+    "descriptionMaxLength": 300,
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "Fashion trends landing pages",
+      "Editorial-style hero sections",
+      "Lifestyle content headers",
+      "Magazine-style article intros",
+      "Seasonal campaign pages"
+    ],
+    "notSuitableFor": [
+      "Simple CTAs without long descriptions",
+      "Product-focused pages",
+      "E-commerce category pages",
+      "Video backgrounds"
+    ],
+    "similarVariants": ["hero-feature", "hero-subscribe"]
+  },
+  "designTokens": {
+    "primaryColor": "#000000",
+    "backgroundColor": "rgba(139, 254, 248, 0.5)",
+    "accentColor": "rgba(244, 254, 139, 0.5)",
+    "fontFamilyHeading": "Syncopate",
+    "fontFamilyBody": "Instrument Sans",
+    "headingSizeDesktop": "90.4px",
+    "descriptionSizeDesktop": "32px",
+    "borderRadius": "20px",
+    "padding": "0 24px"
+  },
+  "usage": {
+    "pagesUsing": [],
+    "reuseCount": 0,
+    "lastUsed": "2025-11-07T10:30:00.000Z"
+  }
+}
